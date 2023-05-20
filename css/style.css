@@ -1,0 +1,321 @@
+
+body{
+	background-color:#FCF4E2 ;
+	margin:0;
+	overflow-x: clip;
+}
+
+#logo{
+	margin-left:20px;
+}
+
+.navbar{
+	background-color:#FF9B9B;
+}
+
+
+
+#name{
+	font-weight: bold;
+	font-family: 'lora';
+}
+
+#menu{
+	margin-left:20%;
+	margin-right: 10%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nav-item{
+	margin-right:30px;
+}
+
+#menu :hover{
+	background-color:white;
+}
+
+
+.search{
+    margin-right: 20px;
+}
+
+
+#offers{
+	text-align: center;
+	font-weight: bolder;
+	margin-top:50px;
+}
+
+.carousel{
+	height:600px;
+	margin-top:50px;
+	border:2px solid black;
+	width:90%;
+	margin-left: 5%;
+	border-radius: 25px;
+	overflow:hidden;
+}
+
+.carousel-item{
+	height:auto;
+	height: 596px;
+
+}
+
+.carousel-inner img{
+	height: auto;
+}
+
+#jumbotron{
+	border-radius:25px;
+}
+
+/*#jumbotron{
+	position: relative;
+	height:600px;
+	width: 899px;
+	background-image:url("../images/1.jpg");
+	background-repeat: no-repeat;
+	margin-top:50px;
+	border:2px solid black;
+	border-radius: 30px;
+	overflow: hidden;
+}*/
+
+#deal{
+	position:absolute;
+	width:100%;
+	bottom:0px;
+    text-align: center;
+	font-size: 1.2em;
+	color:white;
+	font-weight: bolder;
+	left:0;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+#products{
+	text-align: center;
+	font-weight: bolder;
+	margin-top:150px;
+}
+
+#skin,#cosmetics,#hair{
+	
+	position: relative;
+	border:2px solid black;
+	border-radius:30px;
+	background-position: center;
+	overflow:hidden;
+	margin:20px;
+	margin-top:50px;
+	margin-bottom: 30px;
+
+}
+
+#skin:hover,#cosmetics:hover,#hair:hover{
+	box-shadow:0px 5px 5px 5px black;
+}
+
+
+#skin img,#cosmetics img,#hair img{
+	width:100%;
+}
+
+#skin span,#cosmetics span,#hair span{
+	position:absolute;
+	color:white;
+	text-decoration: none;
+	bottom:0px;
+	left:0;
+	width:100%;
+	text-align:center;
+	background-color: #188D0C;
+	opacity:0.7;
+}
+
+#contact{
+	text-align: center;
+	font-weight: bolder;
+	margin-top:100px;
+
+}
+
+#insta,#wp,#telegram{
+	margin:42%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#insta:hover,#wp:hover,#telegram:hover{
+	opacity:0.5;
+}
+
+
+.panel-footer{
+  color:black;
+  margin-top:30px;
+  padding-top:35px;
+  padding-bottom:30px;
+  background-color:#FF9B9B ;
+  border-top:0;
+}
+
+.panel-footer div.row{
+  margin-bottom:35px;
+}
+
+#address > span{
+  font-size: 1.3em;
+}
+
+#address p{
+  color: black;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+
+#testimonials{
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+  margin-top:25px;
+}
+
+.panel-footer section hr{
+    visibility: hidden;
+}
+
+#link{
+	text-decoration: underline;
+	color:black;
+}
+
+@media(max-width:1200px){
+	#carouselExampleAutoplaying{
+		height:560px;
+	}
+
+	#deal{
+		position: absolute;
+		bottom:50px;
+	}
+}
+
+@media(max-width:992px){
+	#carouselExampleAutoplaying{
+		height:415px;
+	}
+
+	#deal{
+		position:absolute;
+		bottom:200px;
+	}
+}
+
+@media(max-width:768px){
+	#carouselExampleAutoplaying,.carousel-inner{
+		height:307px;
+	}
+
+	#deal{
+		position:absolute;
+		bottom:300px;
+	}
+
+  .panel-footer section{
+    margin-bottom:30px;
+    text-align:center;
+  }
+
+  .panel-footer section:nth-child(3){
+    margin-bottom:0;
+  }
+
+  .panel-footer section hr{
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+@media(max-width:576px){
+    #carouselExampleAutoplaying{
+		height:377px;
+		width:100%;
+		margin-left:0.3%;
+		margin-right:0.5%;
+	}
+
+	.carousel-inner,.carousel img{
+		height:477px;
+	}
+
+	#deal{
+		position:absolute;
+		bottom:220px;
+	}
+
+	#logo img{
+		width:80%;
+		margin-left:-10px;
+		margin-top:10px;
+		height:90px;
+	}
+
+	.navbar{
+		height:120%;
+	}
+
+
+	#menu{
+		margin-left:0%;
+		margin-right: 0%;
+		text-align: center;
+    }
+
+    #products{
+    	margin-top:80px;
+    }
+
+    #skin,#cosmetics,#hair{
+		width:70%;
+		margin-left: 15%;
+
+    }
+
+
+    #insta img,#wp img,#telegram img{
+		width:50%;
+		margin-left:25%;
+    }
+
+    #contact{
+    	margin-top: 80px;
+    }
+    
+
+}
+
+@media(min-width: 1200px){
+	#carouselExampleAutoplaying{
+		height:700px;
+	}
+
+	.carousel-inner,.carousel img{
+		height:700px;
+	}
+
+	#jumbotron{
+		height: 700px;
+	}
+
+	#deal{
+		position:absolute;
+		bottom:-100px;
+	}
+
+
+}
